@@ -1,6 +1,6 @@
 ========================= html ===============
 Lenguaje de hipertexto, estructuras mediantes etiqutas dandole forma a una paginaweb, 
-Structura y soporte
+Structura y soporte  
 
 Css
 Hosjas de estilos cascadas, define la presentacion de la misma (estilo de la pagina)

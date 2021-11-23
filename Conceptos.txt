@@ -1,0 +1,39 @@
+========================= html ===============
+Lenguaje de hipertexto, estructuras mediantes etiqutas dandole forma a una paginaweb, 
+Structura y soporte
+
+Css
+Hosjas de estilos cascadas, define la presentacion de la misma (estilo de la pagina)
+Diseño
+
+
+CSS
+Herencia: Padre e hijo
+Dimensiones: px, % em
+
+Selectores:
+Universal: * {}
+Tipo: cualquier etiqueta html  h1 {}
+Clase: . {}
+Id: #{}
+Grupo: h1, h2, h3 {} #cabecerasRojas h2, #cabecerasRojas h3{
+    color: red;
+}
+Descendientes:  li>a{
+    color: orange;
+}
+
+Conflictos entre clases, id, etc. Prevalece el que tenga mayor punto
+Especifidad:
+Selectore * tiene 0 puntos
+Selectore tipo tiene 1 punto
+Selectore Clase tiene 10 puntos
+Selectore id 100 puntos
+si hay empate prevalece el que esta mas abajo abajo del codigo
+si en un elemento inline tiene atributo style tiene 1000 puntos
+
+
+Margenes y relleno
+        sentido horario
+         up   der  down   izq
+padding: 20px 5px 100px 30px;

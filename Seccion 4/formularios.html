@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <!-- ===================================================================================================
+					Tipos de entradas de texto principales:
+						· text = texto. Texto común, cualquier tipo.
+						· email = correo electrónico. Solo aceptará la entrada si tiene formato de correo electrónico.
+						· password = contraseña. Oculta los caracteres al introducirlos.
+						· textarea = área de texto. Cualquier tipo de texto, con un contenedor más grande. 
+				=================================================================================================== -->	
+			
+    <form>
+        <fieldset>
+            <legend>Registrate ahora!</legend>
+            Nombre de usuario: <input type="text" name="usuario" placeholder="Tu nombre aqui!"> <br>
+            Email: <input type="email" name="user_email" placeholder="Tu email aqui!"> <br>
+            Contraseña: <input type="password" name="pass_email" placeholder="Tu clave aqui!"> <br>
+            Comentarios sobre tu registro:<br>
+            <textarea name="comentarios" placeholder="Comentarios" cols="70" rows="10"> </textarea> <br>
+        </fieldset>
+    </form>
+</body>
+</html>

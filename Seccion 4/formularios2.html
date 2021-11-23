@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios 2</title>
+</head>
+<body>
+    <h1>Formularios 2</h1>    
+    <form>
+        <fieldset>
+            <legend>Encuesta sobre gustos musicales</legend>
+            Eres un hombre o una mujer<br>
+            <!--Buttom radio-->
+            <input type="radio" name="sexo" value="hombre" checked>Hombre <br>
+            <input type="radio" name="sexo" value="mujer">Mujer <br>
+
+            Seleccione los generos que mas te gusta
+            <!--Buttom check-->
+            <input type="checkbox" name="pop" value="Pop">Pop <br>
+            <input type="checkbox" name="electronica" value="Pop">Electrónica <br>
+            <input type="checkbox" name="jazz" value="Pop">Jazz <br>
+            <input type="checkbox" name="reguee" value="Pop">Reguee <br>
+
+            ¿Cuánta música escuchas al día?<br>
+            <!--Buttom nav list-->
+            <select name="tiempo" >
+                <option value="menosde30">Menos de 30</option>
+                <option value="entre30">Entre 30 min y 1.30h</option>
+                <option value="masde1h">Mas 1.3h</option>
+            </select><br>
+            <br>
+
+            Introduce una fecha de entrada
+            <!--Fecha-->
+            <input type="date" name="llegada"><br><br>
+
+            <!--Boton buscar-->
+            Buscar:
+            <input type="search" name="buscar"> <br><br>
+
+
+            <input type="reset" name="limpiar" value="Limpiar el formulario"> <br><br>
+
+
+            <input type="submit" name="enviar" value="Enviar encuesta">
+
+        </fieldset>
+    </form>
+</body>
+</html>

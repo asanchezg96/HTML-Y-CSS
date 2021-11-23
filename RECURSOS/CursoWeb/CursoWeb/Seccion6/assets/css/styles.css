@@ -1,0 +1,27 @@
+* {
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+.lorem {
+	color: green;
+}
+
+#importante {
+	color: red;
+}
+
+h2, h3, h4 {
+	font-style: italic;
+}
+
+#cabecerasRojas h2, #cabecerasRojas h3 {
+	color: red;
+}
+
+li>a {
+	color: orange;
+}

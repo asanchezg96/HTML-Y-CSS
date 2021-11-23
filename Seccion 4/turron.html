@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario turron</title>
+</head>
+<body>
+    <h1>Bienvenidos a la página de reservas del Hotel "Faracj"</h1>
+    <br>
+    <p>Desde esta página puede gestionar con total comodida su reserva.</p>
+    <table border="1">
+        <tr>
+            <th>Tipo de habitación</th>
+            <th>N° de personas</th>
+            <th>Precio/noche</th>
+        </tr>
+        <tr>
+            <td>Doble</td>
+            <td>2</td>
+            <td>56$</td>
+        </tr>
+        <tr>
+            <td>Triple</td>
+            <td>3</td>
+            <td>81$</td>
+        </tr>
+        <tr>
+            <td>Suite</td>
+            <td>2</td>
+            <td>125$</td>
+        </tr>
+    </table>
+    <hr>
+    <form >
+        <fieldset>
+            <legend>Hotel Faracj</legend>
+            Nombre: *<input type="text" name="usuario" placeholder="Escribe tu nombre" required="required"><br>
+            Apellido: * <input type="text" name="apellido" placeholder="Escribe tu apellido" required="required"><br>
+            Email: * <input type="email" name="use_email" placeholder="Escribe tu correo electronico" required="required"><br>
+            Contraseña: *<input type="password" name="pass_email" placeholder="Escribe tu clave" required="required" ><br>
+            Fecha de entrada: * <input type="date" name="feha_entrada" required="required"><br>
+            Fecha de salida: *<input type="date" name="feha_salida" required="required"><br>
+            Tipo de habitación:<br>
+             <input type="radio" name="t_hab" value="doble" checked>Doble
+             <input type="radio" name="t_hab" value="triple" >Triple
+             <input type="radio" name="t_hab" value="suite" >Suite
+             <br>
+            Extras opcionales:<br>
+            <input type="checkbox" name="extras"  > Incluir desayuno (+12$/día)<br>
+            <input type="checkbox" name="extras"  >Incluir parqueadero (+13$/día)
+            <br>
+
+            Comentarios sobre su reserva:<br>
+            <textarea name="comentarios" placeholder="Escriba aqí sus comentarios" cols="30" rows="10"></textarea>
+            
+            <br>
+            <input type="submit" name="enviar" value="!Reserva!">
+            <input type="reset" name="limpiar" value="Limpiar formulario">
+            
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
